@@ -33,6 +33,21 @@ function App() {
         <h2>Degrees</h2>
         <h3 className='precise'>Precision over Assumption</h3>
       </div>
+      <div className='Glance'>
+        <div className='card'>
+          <FiTarget size={40} color='#0D1326' />
+         <h1>Strategic Consulting</h1> 
+        </div>
+         <div className='card'>
+          <FiTrendingUp size={40} color='#0D1326' />
+         <h1>Brand & Growth</h1> 
+        </div>
+         <div className='card'>
+          <MdLightbulb size={40} color='#0D1326' />
+         <h1>Product Innovation</h1> 
+        </div>
+
+      </div>
         
       </div>
       <div id="about" className='About'>

@@ -19,6 +19,26 @@
   font-size: 40px;
 
 }
+.Glance{
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+}
+.Glance .card{
+  background-color: #eee;   /* light grey background */
+  padding: 20px;
+  border-radius: 12px;      /* rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* distinct shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* smooth hover effects */
+  width: 80%;
+  text-align: center;
+  margin:auto;
+  color: #0D1326;
+}
+.Glance .card h1{
+  color:#0D1326;
+  font-size: 20px;
+}
 .logo {
   background-color: #0D1326;
   box-shadow: 0 10px 20px rgba(253, 2, 2, 0.3); 
