@@ -1,0 +1,44 @@
+/* Positioning */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 25px;
+  /*left: 20px;*/
+  top: 20px;
+}
+/* Fix burger position INSIDE the header */
+.bm-burger-button {
+  position: absolute !important;
+  right: 20px !important;   /* moves to right of header */
+  top: 50% !important;
+  transform: translateY(-50%); /* vertically centered */
+}
+
+/* Keep bar color */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* The three lines of the hamburger */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Sidebar wrapper */
+.bm-menu {
+  background: #2c3e50;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Sidebar items */
+.menu-item {
+  display: block;
+  padding: 0.8em;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}

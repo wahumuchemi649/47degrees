@@ -1,0 +1,135 @@
+#root {
+ width: 100%;
+ height: 100%;
+ background-color: #fff;
+}
+.header {
+  background-color: #0fb7eb;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;   /* <<< ADD THIS */
+}
+
+.header strong{
+  padding: 5px;
+  font-size: 40px;
+
+}
+.logo {
+  background-color: #0D1326;
+  box-shadow: 0 10px 20px rgba(253, 2, 2, 0.3); 
+  margin: auto;
+  position: relative;
+  width: 95%;
+  height: 450px; /* adjust for your design */
+  overflow: hidden;
+}
+
+/* Blurred background layer */
+
+
+/* Content stays ON TOP */
+.logo .overlay {
+  position: relative;
+  z-index: 2;
+  opacity: 1 !important;
+  color: white;
+  text-align: center;
+}
+
+.logo h1,h2,h3{
+  color: #fff;
+}
+.precise{
+  font-style: italic;
+  font-weight: lighter;
+  color: #fff;
+} 
+h1{
+  color:#0D1326
+}
+h5,h3{
+  color:#0D1326;
+}
+hr{
+  width:200px;
+}
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px;
+  padding: 20px;
+  justify-items: center; /* center cards horizontally in their grid cell */
+  align-items: stretch;  /* make cards same height */
+}
+
+.card {
+  background-color: #eee;   /* light grey background */
+  padding: 20px;
+  border-radius: 12px;      /* rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* distinct shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* smooth hover effects */
+  width: 100%;
+  max-width:600px ;  /* optional max width for each card */
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* lift card slightly */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5); /* stronger shadow on hover */
+}
+
+.card p strong {
+  font-size: 1.2rem;
+  color: #333;
+}
+.card p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+} 
+.Services{
+  text-align: center;
+}
+.service-description{
+  display: block;
+}
+.work{
+  margin-top: 10%;
+  text-align: center;
+}
+.work hr{
+  width:50%
+}
+.silent{
+  margin-top: 5%;
+  text-align: center;
+}.silent hr{
+  width:50%
+}
+.footer-content{
+  display: flex;
+  width: 100%;
+}
+.footer-section{
+  width: 25%;
+ 
+}
+.footer{
+  background-color:#0D1326;
+  bottom: 0;
+}
+p{
+
+  color: #000;
+}
+.footer p{
+  color:#0fb7eb ;
+}
+.footer h3{
+  color: #fff;
+} 
